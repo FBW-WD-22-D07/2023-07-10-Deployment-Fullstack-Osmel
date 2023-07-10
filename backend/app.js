@@ -17,6 +17,8 @@ const mongoUser = process.env.MONGO_USER;
 const mongoPassword = process.env.MONGO_PASSWORD;
 const mongoCluster = process.env.MONGO_CLUSTER;
 const mongoCollection = process.env.MONGO_COLLECTION;
+//mongodb+srv://faure00:<password>@cluster0.mramyyx.mongodb.net/?retryWrites=true&w=majority
+// `mongodb+srv://${mongoUser}:${mongoPassword}@${mongoCluster}/${mongoCollection}?retryWrites=true&w=majority`,
 
 mongoose
     .connect(
